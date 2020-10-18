@@ -2,6 +2,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import sys
 
+"""
+SCRIPT TO TEST SEABORN IS WORKING
+"""
+
 # making some changes to play around
 df = sns.load_dataset('car_crashes')
 

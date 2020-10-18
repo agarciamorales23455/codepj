@@ -13,3 +13,5 @@ plt.show()
 # and a little more
 print(df[['alcohol', 'speeding']].corr())
 sys.exit(0)
+
+print("\nCompleted successfully")

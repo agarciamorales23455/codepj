@@ -1,5 +1,6 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+import sys
 
 df = sns.load_dataset('car_crashes')
 
@@ -9,3 +10,4 @@ plt.show()
 
 
 print(df[['alcohol', 'speeding']].corr())
+sys.exit(0)
